@@ -1,11 +1,13 @@
 .navbar {
-  background: lightblue;
+  /* background: var(--blue); */
+  background-color: transparent;
   height: 80px;
   font-size: 1.1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
+  top: 0;
   z-index: 999;
   padding: 0 40px;
 }
@@ -29,16 +31,28 @@
 }
 
 .nav-links {
-  /* margin-left: 20px; */
+  cursor: pointer;
   color: #fff;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
+  position: relative;
 }
 
-.nav-links:hover {
-  background-color: blue;
-  border-radius: 4px;
-  transition: all 0.2s ease-out;
+.nav-links::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: scale(0, 1);
+  transition: transform ease-in-out 250ms;
+}
+
+.nav-links:hover::after {
+  transform: scale(1, 1);
 }
 
 .fa-bars {
@@ -87,8 +101,13 @@
     display: table;
   }
 
+  .nav-links::after {
+    display: none;
+  }
+
   .nav-links:hover {
     background: var(--lightblue);
+    border: none;
   }
 
   .navbar-logo {
@@ -110,6 +129,7 @@
   .fa-times {
     color: #fff;
     font-size: 1.5rem;
+    background: var(--blue);
   }
 
   .nav-links-mobile {

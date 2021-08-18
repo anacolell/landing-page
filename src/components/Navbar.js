@@ -31,7 +31,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <LinkS to="/" className="nav-links" onClick={closeMobileMenu}>
-                Services
+                Products
               </LinkS>
             </li>
             <li className="nav-item">
@@ -49,7 +49,7 @@ export default function Navbar() {
               </LinkS>
             </li>
           </ul>
-          <button className="btn btn-primary btn-sign-up">SIGN UP</button>
+          <button className="btn btn-outline btn-sign-up">SIGN UP</button>
         </div>
       </nav>
     </>
