@@ -1,0 +1,17 @@
+@import-normalize;
+@import "navbar.css";
+@import "buttons.css";
+
+*,
+*::before,
+*::after,
+h1 {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: blue;
+  --lightblue: lightblue;
+}
