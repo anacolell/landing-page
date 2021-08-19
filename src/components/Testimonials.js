@@ -9,7 +9,7 @@ export default function Testimonials() {
       <img
         src="images/timon.svg"
         className="testimonial-decoration"
-        alt="picture of a rudder"
+        alt="rudder"
       />
     </div>
   );

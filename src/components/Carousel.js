@@ -27,23 +27,21 @@ export default function Carousel() {
       />
       {slides.map((slide, index) => {
         return (
-          <>
-            <div
-              className={index === currentImg ? "slide active" : "slide"}
-              key={index}
-            >
-              {index === currentImg && (
-                <div
-                  className="carousel-inner"
-                  style={{
-                    backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(${slide.image})`,
-                  }}
-                >
-                  <p className="carousel-text">"{slide.text}"</p>
-                </div>
-              )}
-            </div>
-          </>
+          <div
+            key={slide.id}
+            className={index === currentImg ? "slide active" : "slide"}
+          >
+            {index === currentImg && (
+              <div
+                className="carousel-inner"
+                style={{
+                  backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(${slide.image})`,
+                }}
+              >
+                <p className="carousel-text">"{slide.text}"</p>
+              </div>
+            )}
+          </div>
         );
       })}
     </section>
