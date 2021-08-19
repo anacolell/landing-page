@@ -75,9 +75,9 @@
 }
 
 @media screen and (max-width: 960px) {
-  /* .navbar {
+  .navbar {
     position: relative;
-  } */
+  }
 
   .nav-menu {
     display: flex;
@@ -86,7 +86,7 @@
     height: 500px;
     position: absolute;
     top: 70px;
-    left: 100%;
+    left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
     margin-left: 0;
@@ -106,6 +106,7 @@
     padding: 2rem;
     width: 100%;
     display: table;
+    color: #fff;
   }
 
   .nav-links::after {
@@ -113,8 +114,9 @@
   }
 
   .nav-links:hover {
-    background: var(--lightblue);
+    background: #fff;
     border: none;
+    color: var(--blue);
   }
 
   .navbar-logo {
@@ -139,6 +141,7 @@
   }
 
   .nav-links-mobile {
+    cursor: pointer;
     display: block;
     text-align: center;
     margin: 2rem auto;
@@ -152,11 +155,11 @@
     transition: all 0.3s ease-out;
   }
 
-  /* .nav-links-mobile:hover {
+  .nav-links-mobile:hover {
     background: #fff;
-    color: #242424;
+    color: var(--blue);
     transition: 250ms;
-  } */
+  }
 
   .btn-sign-up {
     display: none;

@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 450px;
   position: relative;
   margin: 0px auto;
 }
@@ -11,12 +11,11 @@
 .carousel-inner {
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 450px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .carousel-text {
@@ -29,13 +28,13 @@
 }
 
 .slide {
-  opacity: 0;
-  transition: opacity 450ms ease 0s;
+  opacity: 0.8;
+  transition: all 450ms ease;
 }
 
 .slide.active {
   opacity: 1;
-  transition: opacity 450ms ease 0s;
+  transition: all 450ms ease;
 }
 
 .carousel-arrow {
@@ -69,6 +68,6 @@
 
 @media (min-width: 576px) {
   .carousel {
-    width: 60%;
+    width: 58%;
   }
 }
