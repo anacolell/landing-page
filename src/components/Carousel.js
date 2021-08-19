@@ -35,7 +35,7 @@ export default function Carousel() {
               <div
                 className="carousel-inner"
                 style={{
-                  backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(${slide.image})`,
+                  backgroundImage: `url(${slide.image})`,
                 }}
               >
                 <p className="carousel-text">"{slide.text}"</p>

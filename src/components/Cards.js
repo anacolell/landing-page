@@ -5,7 +5,7 @@ export default function Cards() {
   return (
     <>
       <div className="cards">
-        <h1 className="cards-page-title">Lorem ipsum dolor sit amet.</h1>
+        <h1 className="cards-page-title">Lorem ipsum</h1>
         <div className="cards-wrapper">
           <ul className="card-items">
             <Card

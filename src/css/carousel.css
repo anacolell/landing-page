@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
   height: 400px;
   position: relative;
   margin: 0px auto;
@@ -31,12 +30,12 @@
 
 .slide {
   opacity: 0;
-  transition-duration: 1s ease;
+  transition: opacity 450ms ease 0s;
 }
 
 .slide.active {
   opacity: 1;
-  transition: all 1s ease-in;
+  transition: opacity 450ms ease 0s;
 }
 
 .carousel-arrow {
@@ -70,6 +69,6 @@
 
 @media (min-width: 576px) {
   .carousel {
-    width: 50%;
+    width: 60%;
   }
 }

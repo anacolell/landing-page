@@ -9,6 +9,7 @@
 @import "footer.css";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap");
 
 *,
 *::before,
@@ -22,6 +23,7 @@ h1 {
 body {
   font-family: "Arvo", serif;
   /* font-family: "Lato", sans-serif; */
+  /* font-family: 'Bodoni Moda', serif; */
 }
 
 :root {

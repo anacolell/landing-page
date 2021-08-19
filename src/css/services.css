@@ -25,7 +25,7 @@
 
 .service-text {
   color: #fff;
-  font-weight: 800;
+  /* font-weight: 800; */
   opacity: 0.95;
   margin-top: 10px;
   width: 60%;

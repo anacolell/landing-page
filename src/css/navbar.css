@@ -75,9 +75,9 @@
 }
 
 @media screen and (max-width: 960px) {
-  .navbar {
+  /* .navbar {
     position: relative;
-  }
+  } */
 
   .nav-menu {
     display: flex;
@@ -128,13 +128,13 @@
     position: absolute;
     top: 10;
     right: 20px;
-    transform: tanslate(-100%, 50%);
+    /* transform: translate(-100%, 50%); */
     font-size: 1.6rem;
     cursor: pointer;
   }
 
   .fa-times {
-    color: #fff;
+    color: #242424;
     font-size: 1.5rem;
   }
 
@@ -152,11 +152,11 @@
     transition: all 0.3s ease-out;
   }
 
-  .nav-links-mobile:hover {
+  /* .nav-links-mobile:hover {
     background: #fff;
     color: #242424;
     transition: 250ms;
-  }
+  } */
 
   .btn-sign-up {
     display: none;
