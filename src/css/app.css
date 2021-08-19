@@ -4,6 +4,9 @@
 @import "buttons.css";
 @import "cards.css";
 @import "services.css";
+@import "carousel.css";
+@import "testimonials.css";
+@import "footer.css";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
 
@@ -17,11 +20,12 @@ h1 {
 }
 
 body {
-  /* font-family: "Arvo", serif; */
-  font-family: "Lato", sans-serif;
+  font-family: "Arvo", serif;
+  /* font-family: "Lato", sans-serif; */
 }
 
 :root {
   --blue: #8bbfdd;
-  --lightblue: lightblue;
+  --lightgray: #fafafa;
+  --gold: hsl(45, 34%, 55%);
 }

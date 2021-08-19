@@ -1,11 +1,11 @@
 .services-container {
   background: var(--blue);
+  background: #7592ac;
   padding: 100px 0;
 }
 
 .service-icon {
   height: 160px;
-  fill: #fff;
 }
 
 .icons-wrapper {

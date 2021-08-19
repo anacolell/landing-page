@@ -1,0 +1,51 @@
+import React, { useState } from "react";
+import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+import { slides } from "./CarouselData";
+
+export default function Carousel() {
+  const [currentImg, setCurrentImg] = useState(0);
+  const length = slides.length;
+
+  const nextSlide = () => {
+    setCurrentImg(currentImg === length - 1 ? 0 : currentImg + 1);
+  };
+
+  const prevSlide = () => {
+    setCurrentImg(currentImg === 0 ? length - 1 : currentImg - 1);
+  };
+
+  if (!Array.isArray(slides) || slides.length <= 0) {
+    return null;
+  }
+
+  return (
+    <section className="carousel">
+      <BsArrowLeft className="carousel-arrow left-arrow" onClick={prevSlide} />
+      <BsArrowRight
+        className="carousel-arrow right-arrow"
+        onClick={nextSlide}
+      />
+      {slides.map((slide, index) => {
+        return (
+          <>
+            <div
+              className={index === currentImg ? "slide active" : "slide"}
+              key={index}
+            >
+              {index === currentImg && (
+                <div
+                  className="carousel-inner"
+                  style={{
+                    backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(${slide.image})`,
+                  }}
+                >
+                  <p className="carousel-text">"{slide.text}"</p>
+                </div>
+              )}
+            </div>
+          </>
+        );
+      })}
+    </section>
+  );
+}
