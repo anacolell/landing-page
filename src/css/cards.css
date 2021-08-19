@@ -5,6 +5,7 @@
 
 .cards {
   padding: 40px;
+  padding-bottom: 150px;
   background: #fff;
 }
 
@@ -60,33 +61,3 @@
   font-weight: bold;
   margin: 0;
 }
-
-/* @media (min-width: 100px) and (max-width: 575px) {
-  .card-items {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (min-width: 576px) {
-  .card-items {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (min-width: 768px) {
-  .card-items {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (min-width: 992px) {
-  .card-items {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@media (min-width: 1200px) {
-  .card-items {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-} */

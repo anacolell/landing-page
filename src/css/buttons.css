@@ -16,5 +16,16 @@
   color: #245c56;
   background-color: #fff;
   border: 1px solid transparent;
-  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-in;
+}
+
+.btn-sign-up-dark {
+  border: 1px solid #4b5459;
+  color: #4b5459;
+}
+
+.btn-sign-up-dark:hover {
+  background: #4b5459;
+  border: #4b5459;
+  color: #fff;
 }
