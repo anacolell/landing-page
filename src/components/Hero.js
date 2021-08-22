@@ -12,7 +12,7 @@ export default function Hero() {
       <video
         src="/videos/video1.mp4"
         className="hero-video"
-        autoPlay
+        autoPlay={true}
         loop
         muted
       ></video>

@@ -1,10 +1,13 @@
 .intro-wrapper {
   padding: 100px 40px;
   background: var(--lightgray);
+  position: relative;
+  z-index: 1;
+  width: 100%;
 }
 
 .intro-content-wrapper {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -13,11 +16,21 @@
 
 .intro-img {
   width: 100%;
+  z-index: 1;
+}
+
+.intro-decoration {
+  opacity: 0.5;
+  position: absolute;
+  height: 400px;
+  bottom: -50px;
+  right: 0px;
+  z-index: -1;
 }
 
 .intro-img-container {
   width: 100%;
-  max-width: 700px;
+  max-width: 650px;
 }
 
 .intro-info {
@@ -54,6 +67,7 @@
 
 @media (min-width: 900px) {
   .intro-content-wrapper {
+    width: 80%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 140px 140px 140px 140px;
   }
@@ -66,5 +80,10 @@
   .intro-info {
     grid-row: 3 / span 2;
     grid-column: 3 / -1;
+  }
+
+  .intro-decoration {
+    top: 300px;
+    right: 0px;
   }
 }

@@ -29,7 +29,7 @@ export default function Carousel() {
         return (
           <div
             key={slide.id}
-            className={index === currentImg ? "slide active" : "slide"}
+            className={index === currentImg ? "slide carousel-active" : "slide"}
           >
             {index === currentImg && (
               <div

@@ -3,6 +3,8 @@ import React from "react";
 export default function Intro() {
   return (
     <div className="intro-wrapper">
+      <h1 className="section-title">Discover</h1>
+      <img src="images/compass.svg" className="intro-decoration" alt="rudder" />
       <div className="intro-content-wrapper">
         <div className="intro-img-container">
           <img
@@ -13,8 +15,8 @@ export default function Intro() {
         </div>
         <div className="intro-info">
           <h5 className="intro-info-title">
-            <span class="intro-info-title-accent">L</span>orem ipsum dolor sit
-            amet
+            <span className="intro-info-title-accent">L</span>orem ipsum dolor
+            sit amet
           </h5>
           <p className="intro-text">
             Incidunt mollitia, alias natus impedit voluptas qui debitis

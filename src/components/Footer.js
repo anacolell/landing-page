@@ -1,5 +1,6 @@
 import React from "react";
 import { Link as LinkS } from "react-scroll";
+
 import {
   FaMapMarkerAlt,
   FaPhoneAlt,
@@ -52,6 +53,8 @@ export default function Footer() {
             <FaPhoneAlt className="footer-contact-icon" /> +30 034 924 39
           </li>
         </ul>
+      </section>
+      <section className="footer-map">
         <h4 className="footer-title footer-title-follow">Follow us</h4>
         <ul className="footer-list footer-list-follow">
           <li>
@@ -65,7 +68,6 @@ export default function Footer() {
           </li>
         </ul>
       </section>
-      <section className="footer-map"></section>
     </div>
   );
 }

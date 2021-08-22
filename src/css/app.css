@@ -40,6 +40,14 @@ body {
   justify-content: center;
 }
 
+.section-title {
+  text-align: center;
+  margin: 60px 0;
+  font-weight: 300;
+  font-size: 4rem;
+  font-family: "Bodoni Moda", serif;
+}
+
 :root {
   --blue: #8bbfdd;
   --lightgray: #fafafa;

@@ -1,17 +1,30 @@
 .footer-wrapper {
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
   background-color: #0f374f;
   color: #fff;
   padding: 60px 0;
+}
+
+.footer-title-wrapper {
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.footer-section {
+  padding-top: 20px;
+  border-bottom: 1px solid var(--gold);
 }
 
 .footer-title {
   margin-bottom: 20px;
 }
 
-.footer-title-follow {
-  margin-top: 20px;
+.footer-plus-icon {
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-left: 20px;
 }
 
 .footer-link {
@@ -64,4 +77,18 @@
 
 .footer-social-icon:hover {
   color: #fff;
+}
+
+@media (min-width: 992px) {
+  .footer-wrapper {
+    flex-direction: row;
+  }
+
+  .footer-section {
+    border: none;
+  }
+
+  .footer-plus-icon {
+    display: none;
+  }
 }

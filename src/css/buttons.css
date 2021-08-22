@@ -20,12 +20,12 @@
 }
 
 .btn-sign-up-dark {
-  border: 1px solid #4b5459;
-  color: #4b5459;
+  border: 1px solid var(--gold);
+  color: var(--gold);
 }
 
 .btn-sign-up-dark:hover {
-  background: #4b5459;
-  border: #4b5459;
+  background: var(--gold);
+  border: 1px solid var(--gold);
   color: #fff;
 }

@@ -4,6 +4,7 @@ import Intro from "./Intro";
 import Cards from "./Cards";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
+import Newsletter from "./Newsletter";
 import Footer from "./Footer";
 
 import "../css/app.css";
@@ -16,6 +17,7 @@ function App() {
       <Cards />
       <Services />
       <Testimonials />
+      <Newsletter />
       <Footer />
     </>
   );
