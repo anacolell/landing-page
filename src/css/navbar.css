@@ -92,7 +92,7 @@
     padding-right: 0;
   }
 
-  .nav-menu.active {
+  .nav-menu.navbar-active {
     background: var(--blue);
     left: 0;
     opacity: 1;

@@ -39,7 +39,7 @@ export default function Navbar() {
           <i className={clicked ? "fas fa-times" : "fas fa-bars"} />
         </div>
         <div className="navbar-items">
-          <ul className={clicked ? "nav-menu active" : "nav-menu"}>
+          <ul className={clicked ? "nav-menu navbar-active" : "nav-menu"}>
             <li className="nav-item">
               <LinkS to="/" className="nav-links">
                 Home
