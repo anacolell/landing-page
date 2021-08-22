@@ -16,7 +16,6 @@ function App() {
       <Cards />
       <Services />
       <Testimonials />
-      <Newsletter />
       <Footer />
     </>
   );
