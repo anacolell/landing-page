@@ -6,6 +6,7 @@
 @import "cards.css";
 @import "services.css";
 @import "carousel.css";
+@import "destinations.css";
 @import "testimonials.css";
 @import "footer.css";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
@@ -42,7 +43,7 @@ body {
 
 .section-title {
   text-align: center;
-  margin: 60px 0;
+  padding: 60px 0;
   font-weight: 300;
   font-size: 4rem;
   font-family: "Bodoni Moda", serif;

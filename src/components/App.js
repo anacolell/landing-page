@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import Intro from "./Intro";
 import Cards from "./Cards";
 import Services from "./Services";
+import Destinations from "./Destinations";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
 
@@ -15,6 +16,7 @@ function App() {
       <Intro />
       <Cards />
       <Services />
+      <Destinations />
       <Testimonials />
       <Footer />
     </>
