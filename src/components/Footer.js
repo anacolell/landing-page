@@ -14,7 +14,7 @@ export default function Footer() {
     <div className="footer-wrapper">
       <section className="footer-about-us">
         <h4 className="footer-title">About us</h4>
-        <div class="footer-link-items">
+        <div className="footer-link-items">
           <LinkS to="/" className="footer-link">
             How it works
           </LinkS>

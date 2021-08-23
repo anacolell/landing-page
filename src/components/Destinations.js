@@ -6,9 +6,9 @@ export default function Destinations() {
       <h1 className="section-title">Our destinations</h1>
       <div className="destination-cards-wrapper">
         <div
-          className="panel panel-active"
+          className="panel"
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1570303349335-44d8488db678?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8emFreW50aG9zfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('https://images.unsplash.com/photo-1570303349335-44d8488db678?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8emFreW50aG9zfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')`,
           }}
         >
           <h3>Ionian</h3>
@@ -28,7 +28,7 @@ export default function Destinations() {
         <div
           className="panel"
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1573314105564-45cee6ea07ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80')`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1573314105564-45cee6ea07ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80')`,
           }}
         >
           <h3>Peloponnese</h3>
@@ -46,7 +46,7 @@ export default function Destinations() {
         <div
           className="panel"
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1603030580707-d5f787d8b1c7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y3JldGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1603030580707-d5f787d8b1c7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y3JldGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')`,
           }}
         >
           <h3>Crete</h3>
@@ -63,7 +63,7 @@ export default function Destinations() {
         <div
           className="panel"
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1577543599916-551c9c4c1ca8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXRoZW5zfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1577543599916-551c9c4c1ca8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXRoZW5zfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')`,
           }}
         >
           <h3>Attica</h3>
@@ -78,7 +78,7 @@ export default function Destinations() {
         <div
           className="panel"
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1599666027402-24e8e19eb069?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3ljbGFkZXN8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1599666027402-24e8e19eb069?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3ljbGFkZXN8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')`,
           }}
         >
           <h3>Cyclades</h3>
@@ -100,7 +100,7 @@ export default function Destinations() {
         <div
           className="panel"
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1597131613084-90b333f221e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=317&q=80')`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1597131613084-90b333f221e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=317&q=80')`,
           }}
         >
           <h3>North Aegean</h3>

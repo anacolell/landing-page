@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 import { slides } from "./CarouselData";
 
 export default function Carousel() {
@@ -38,7 +39,15 @@ export default function Carousel() {
                   backgroundImage: `url(${slide.image})`,
                 }}
               >
+                <ImQuotesLeft className="quotes quotes-left" />
+                <ImQuotesRight className="quotes quotes-right" />
                 <p className="carousel-text">"{slide.text}"</p>
+                <img
+                  className="avatar"
+                  src={slide.userImage}
+                  alt="greece landscape"
+                />
+                <p className="carousel-username">{slide.userName}</p>
               </div>
             )}
           </div>

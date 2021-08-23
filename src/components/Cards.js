@@ -25,6 +25,7 @@ export default function Cards() {
               selected={selected}
               setSelected={setSelected}
               id={item.id}
+              key={item.id}
             />
           ))}
         </ul>

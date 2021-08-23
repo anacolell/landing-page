@@ -72,12 +72,16 @@
 }
 
 .panel h3 {
-  color: #fff;
+  /* font-family: "Bodoni Moda", serif;
+  text-transform: uppercase;
+  letter-spacing: 2px; */
   font-weight: 300;
+  text-align: center;
+  color: #fff;
   opacity: 0.9;
+  padding: 0 10px;
 }
 
-.panel:focus,
 .panel:hover {
   height: 80vh;
 }

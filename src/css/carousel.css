@@ -1,11 +1,13 @@
 .carousel {
-  width: 70%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 450px;
   position: relative;
   margin: 0px auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 .carousel-inner {
@@ -14,8 +16,11 @@
   height: 450px;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+  padding-top: 50px;
 }
 
 .carousel-text {
@@ -24,6 +29,7 @@
   font-weight: 400;
   color: white;
   line-height: 1.4;
+  padding-bottom: 30px;
 }
 
 .slide {
@@ -65,8 +71,43 @@
   right: -50px;
 }
 
-@media (min-width: 576px) {
+.quotes {
+  position: absolute;
+  color: #fff;
+  font-size: 120px;
+  opacity: 0.4;
+  display: none;
+}
+
+.quotes-left {
+  left: 80px;
+  top: 80px;
+}
+
+.quotes-right {
+  right: 80px;
+  bottom: 80px;
+}
+
+.avatar {
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.carousel-username {
+  margin-top: 10px;
+  color: #fff;
+}
+
+@media (min-width: 790px) {
   .carousel {
     width: 58%;
+  }
+
+  .quotes {
+    display: block;
   }
 }
