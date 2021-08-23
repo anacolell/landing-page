@@ -9,13 +9,11 @@ export default function Hero() {
 
   return (
     <div className="hero-wrapper">
-      <video
-        src="/videos/video1.mp4"
-        className="hero-video"
-        autoPlay={true}
-        loop
-        muted
-      ></video>
+      <img
+        src="https://images.pexels.com/photos/1705254/pexels-photo-1705254.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        className="hero-img"
+        alt="beach"
+      />
       <div className="hero-text" data-aos="fade" data-aos-duration="2500">
         <h1 className="hero-title">EXPLORE GREECE</h1>
         <p className="hero-subtitle">Find your perfect adventure</p>
