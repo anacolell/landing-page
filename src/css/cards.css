@@ -13,7 +13,7 @@
 }
 
 .cards-items {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 40px;
   grid-gap: 10px;
@@ -109,9 +109,5 @@
 
   .category-list-item {
     margin-right: 40px;
-  }
-
-  .cars-items {
-    width: 80%;
   }
 }

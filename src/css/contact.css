@@ -1,0 +1,129 @@
+.contact-wrapper {
+  background-color: var(--lightgray);
+}
+
+.contact-title-accent {
+  color: var(--gold);
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-left {
+  flex: 1;
+}
+
+.contact-img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form {
+  width: 80%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.form-input {
+  height: 30px;
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 40px;
+  border: none;
+  background-color: var(--lightgray);
+  border-bottom: 2px solid var(--gold);
+}
+
+.form-label {
+  left: 0;
+  position: absolute;
+  cursor: select;
+  pointer-events: none;
+  user-select: none;
+  transition: transform 0.2s 0.15s;
+}
+
+.contact-form-inputs {
+  color: #868686;
+  position: relative;
+  cursor: select;
+}
+
+.form-input:focus + .form-label {
+  transform: translate3d(0, -20px, 0);
+}
+
+.lift {
+  transform: translate3d(0, -20px, 0);
+}
+
+.contact-form textarea {
+  width: 100%;
+  height: 200px;
+  font-size: 1rem;
+  resize: none;
+  border: none;
+  background-color: var(--lightgray);
+  border-bottom: 2px solid var(--gold);
+}
+
+.contact-form-btn {
+  margin-top: 20px;
+  background: var(--gold);
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 8px 36px;
+  transition: all 0.3s ease-in;
+}
+
+.contact-form-btn:hover {
+  background: #fff;
+  color: var(--gold);
+  border: 1px solid var(--gold);
+}
+
+.contact-form-errors {
+  font-size: 0.8rem;
+  text-align: start;
+  color: var(--gold);
+  position: absolute;
+  top: 35px;
+}
+
+.form-success {
+  text-align: center;
+  background-color: #fff;
+  padding: 50px;
+  margin: 30px;
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid var(--gold);
+  line-height: 1.4;
+}
+
+.form-success-title {
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+@media (min-width: 900px) {
+  .contact-container {
+    flex-direction: row;
+    height: 80vh;
+  }
+}

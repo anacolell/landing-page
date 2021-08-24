@@ -4,6 +4,8 @@
   font-size: 18px;
   cursor: pointer;
   color: #fff;
+  outline: none;
+  border: none;
 }
 
 .btn-outline {

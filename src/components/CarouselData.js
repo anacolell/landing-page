@@ -12,7 +12,7 @@ export const slides = [
     id: 2,
     image:
       "https://images.unsplash.com/photo-1508240782898-53ee4351d612?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTl8fGdyZWVjZXxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, distinctio. Voluptatum enim doloribus deleniti sed et. Labore velit, quaerat amet illo  Labore velit, quaerat amet illo  Labore velit, quaerat amet illo.",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, distinctio. Voluptatum enim doloribus deleniti sed et. Labore velit, quaerat amet illo  Labore velit, quaerat amet illo.",
     userImage:
       "https://images.unsplash.com/photo-1509460913899-515f1df34fea?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZhY2V8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     userName: "Ben Mosby",

@@ -9,6 +9,7 @@
 @import "destinations.css";
 @import "testimonials.css";
 @import "footer.css";
+@import "contact.css";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap");
@@ -45,7 +46,7 @@ body {
   text-align: center;
   padding: 60px 0;
   font-weight: 300;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: "Bodoni Moda", serif;
 }
 
@@ -53,4 +54,10 @@ body {
   --blue: #8bbfdd;
   --lightgray: #fafafa;
   --gold: hsl(45, 34%, 55%);
+}
+
+@media (min-width: 676px) {
+  .section-title {
+    font-size: 4rem;
+  }
 }

@@ -5,9 +5,11 @@ import Cards from "./Cards";
 import Services from "./Services";
 import Destinations from "./Destinations";
 import Testimonials from "./Testimonials";
+import Contact from "./Contact";
 import Footer from "./Footer";
 
 import "../css/app.css";
+
 function App() {
   return (
     <>
@@ -18,6 +20,7 @@ function App() {
       <Services />
       <Destinations />
       <Testimonials />
+      <Contact />
       <Footer />
     </>
   );
