@@ -4,91 +4,98 @@
   flex-direction: column;
   background-color: #0f374f;
   color: #fff;
-  padding: 60px 0;
-}
-
-.footer-title-wrapper {
-  padding-bottom: 20px;
-  display: flex;
-}
-
-.footer-section {
-  padding-top: 20px;
-  border-bottom: 1px solid var(--gold);
+  padding-bottom: 60px;
 }
 
 .footer-title {
-  margin-bottom: 20px;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 20px 0;
 }
 
-.footer-plus-icon {
-  cursor: pointer;
-  font-size: 0.8rem;
-  margin-left: 20px;
-}
-
-.footer-link {
-  margin-bottom: 10px;
-}
-
-.footer-link-items {
+.footer-title-wrapper {
+  width: 100%;
+  padding: 0 20px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid white;
+  cursor: pointer;
 }
 
-.footer-link {
-  cursor: pointer;
+.footer-title-wrapper:last-child {
+  border-bottom: 1px solid white;
+}
+
+.footer-title-wrapper:hover {
+  color: var(--gold);
   transition: all 0.3s ease-in;
 }
 
-.footer-link:hover {
+.footer-icon {
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in;
+}
+
+.footer-icon-active {
+  transform: rotate(180deg);
+}
+
+.footer-contact-icon {
+  margin-right: 10px;
+  color: var(--gold);
+}
+
+.footer-social-icon {
+  font-size: 1.3rem;
+  margin-right: 10px;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.footer-social-icon:hover {
   color: var(--gold);
 }
 
 .footer-list {
   list-style: none;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.4s ease-out;
 }
 
-.footer-list-follow {
-  display: flex;
+.footer-open {
+  opacity: 1;
+  max-height: 1000px;
 }
 
 .footer-list li {
-  margin-bottom: 10px;
-}
-
-.footer-about-list li:before {
-  content: "✓";
-  margin-right: 5px;
-}
-
-.footer-contact-icon {
-  color: var(--gold);
-  margin-right: 5px;
-}
-
-.footer-social-icon {
-  margin-right: 20px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: var(--gold);
-  transition: color 0.4 ease-in;
-}
-
-.footer-social-icon:hover {
-  color: #fff;
+  margin-bottom: 18px;
+  padding: 0;
 }
 
 @media (min-width: 992px) {
   .footer-wrapper {
     flex-direction: row;
+    padding-top: 20px;
   }
 
-  .footer-section {
+  .footer-title-wrapper {
     border: none;
+    cursor: default;
   }
 
   .footer-plus-icon {
     display: none;
+  }
+
+  .footer-icon {
+    display: none;
+  }
+
+  .footer-title-wrapper:hover {
+    color: #fff;
   }
 }
