@@ -1,12 +1,3 @@
-import React from "react";
-import {
-  FaMapMarkerAlt,
-  FaPhoneAlt,
-  FaInstagram,
-  FaFacebook,
-  FaYoutube,
-} from "react-icons/fa";
-
 export const footerData = [
   {
     id: 1,
@@ -67,31 +58,25 @@ export const footerData = [
     list: [
       {
         id: 1,
-        name: [
-          <FaMapMarkerAlt className="footer-contact-icon" />,
-          "28 Oktovriou Street",
-        ],
+        name: "28 Oktovriou Street",
       },
       {
         id: 2,
-        name: [
-          <FaPhoneAlt className="footer-contact-icon" />,
-          "+30 034 924 39",
-        ],
+        name: "+30 034 924 39",
       },
     ],
   },
   {
     id: 4,
-    section: "Follow us",
+    section: "Help",
     list: [
       {
         id: 1,
-        name: [
-          <FaYoutube className="footer-social-icon" />,
-          <FaInstagram className="footer-social-icon" />,
-          <FaFacebook className="footer-social-icon" />,
-        ],
+        name: "COVID-19 FAQ",
+      },
+      {
+        id: 2,
+        name: "Services",
       },
     ],
   },

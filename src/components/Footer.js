@@ -55,25 +55,22 @@ export default function Footer() {
                 />
               </span>
             </div>
-            <ul
-              className={
-                open === index || window.innerWidth > 992
-                  ? "footer-list footer-open"
-                  : "footer-list"
-              }
-            >
-              {item.list.map((i) => {
-                return <li key={i.id}>{i.name}</li>;
-              })}
-            </ul>
+            {open === index || window.innerWidth > 992 ? (
+              <ul
+                className={
+                  open === index || window.innerWidth > 992
+                    ? "footer-list footer-open"
+                    : "footer-list"
+                }
+              >
+                {item.list.map((i) => {
+                  return <li key={i.id}>{i.name}</li>;
+                })}
+              </ul>
+            ) : null}
           </div>
         );
       })}
     </div>
   );
 }
-// {open === index ? (
-//   <FiMinus className="footer-icon" />
-// ) : (
-//   <FiPlus className="footer-icon" />
-// )}

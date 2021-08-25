@@ -51,6 +51,7 @@
   margin-right: 10px;
   transition: all 0.3s ease-in;
   cursor: pointer;
+  display: inline-block;
 }
 
 .footer-social-icon:hover {
