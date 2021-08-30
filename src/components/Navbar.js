@@ -45,7 +45,11 @@ export default function Navbar() {
           }}
           className="navbar-logo"
         >
-          LOGO
+          <img
+            className={show || clicked ? "" : "logo-hide"}
+            src="images/logo-text.png"
+            alt="logo"
+          />
         </LinkS>
         <div className="menu-icon" onClick={handleClick}>
           <i className={clicked ? "fas fa-times" : "fas fa-bars"} />

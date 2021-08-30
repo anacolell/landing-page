@@ -28,6 +28,10 @@
   cursor: pointer;
 }
 
+.logo-hide {
+  display: none;
+}
+
 .nav-menu {
   display: flex;
   list-style: none;
