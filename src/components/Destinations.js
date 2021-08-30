@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Destinations() {
   return (
-    <div className="destinations-wrapper">
+    <div className="destinations-wrapper" id="destinations">
       <h1 className="section-title">Our destinations</h1>
       <div className="destination-cards-wrapper">
         <div

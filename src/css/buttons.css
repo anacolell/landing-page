@@ -21,12 +21,12 @@
   transition: all 0.3s ease-in;
 }
 
-.btn-sign-up-dark {
+.btn-contact-dark {
   border: 1px solid var(--gold);
   color: var(--gold);
 }
 
-.btn-sign-up-dark:hover {
+.btn-contact-dark:hover {
   background: var(--gold);
   border: 1px solid var(--gold);
   color: #fff;

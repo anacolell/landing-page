@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link as LinkS } from "react-scroll";
+// import { Link as LinkS } from "react-scroll";
 import { footerData } from "./FooterData";
 import { IoIosArrowDown } from "react-icons/io";
 // import {

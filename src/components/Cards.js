@@ -15,13 +15,13 @@ export default function Cards() {
 
   return (
     <>
-      <div className="cards">
+      <div className="cards" id="tours">
         <h1 className="section-title">Our tours</h1>
         <ul className="card-categories">
           {list.map((item) => (
             <CategoryListItem
               title={item.title}
-              active={selected === item.id}
+              activeCard={selected === item.id}
               selected={selected}
               setSelected={setSelected}
               id={item.id}

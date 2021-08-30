@@ -20,6 +20,10 @@
   border-bottom: 0.5px solid #d9dcdd;
 }
 
+.nav-background .fa-bars {
+  color: #4b5459;
+}
+
 .navbar-logo {
   cursor: pointer;
 }
@@ -75,7 +79,7 @@
 
 @media screen and (max-width: 960px) {
   .navbar {
-    position: relative;
+    position: sticky;
   }
 
   .nav-menu {
@@ -159,7 +163,7 @@
     transition: 250ms;
   }
 
-  .btn-sign-up {
+  .btn-contact {
     display: none;
   }
 }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link as LinkS } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 // import { Link as LinkR } from "react-router-dom";
 
 export default function Navbar() {
@@ -18,6 +19,10 @@ export default function Navbar() {
     }
   };
 
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   useEffect(() => {
     window.addEventListener("scroll", controlNavbar);
     return () => {
@@ -32,7 +37,14 @@ export default function Navbar() {
           clicked && "nav-background"
         }`}
       >
-        <LinkS to="/" className="navbar-logo" onClick={closeMobileMenu}>
+        <LinkS
+          to="/"
+          onClick={() => {
+            toggleHome();
+            closeMobileMenu();
+          }}
+          className="navbar-logo"
+        >
           LOGO
         </LinkS>
         <div className="menu-icon" onClick={handleClick}>
@@ -41,42 +53,89 @@ export default function Navbar() {
         <div className="navbar-items">
           <ul className={clicked ? "nav-menu navbar-active" : "nav-menu"}>
             <li className="nav-item">
-              <LinkS to="/" className="nav-links">
+              <LinkS
+                to="home"
+                smooth={true}
+                duration={600}
+                spy={true}
+                exact="true"
+                offset={-60}
+                className="nav-links"
+              >
                 Home
               </LinkS>
             </li>
             <li className="nav-item">
-              <LinkS to="/" className="nav-links" onClick={closeMobileMenu}>
-                Services
+              <LinkS
+                to="about"
+                smooth={true}
+                duration={600}
+                spy={true}
+                exact="true"
+                offset={-60}
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                About
               </LinkS>
             </li>
             <li className="nav-item">
-              <LinkS to="/" className="nav-links" onClick={closeMobileMenu}>
-                Products
+              <LinkS
+                to="tours"
+                // delay={100}
+                smooth={true}
+                duration={600}
+                spy={true}
+                exact="true"
+                offset={-60}
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Tours
               </LinkS>
             </li>
             <li className="nav-item">
-              <LinkS to="/" className="nav-links" onClick={closeMobileMenu}>
+              <LinkS
+                to="destinations"
+                smooth={true}
+                duration={600}
+                spy={true}
+                exact="true"
+                offset={-60}
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Destinations
               </LinkS>
             </li>
             <li>
               <LinkS
-                to="/"
+                to="contact"
+                smooth={true}
+                duration={600}
+                spy={true}
+                exact="true"
+                offset={-60}
                 className={"nav-links-mobile"}
                 onClick={closeMobileMenu}
               >
-                Sign up
+                Contact
               </LinkS>
             </li>
           </ul>
-          <button
-            className={`btn btn-outline btn-sign-up ${
-              show && "btn-sign-up-dark"
+          <LinkS
+            to="contact"
+            smooth={true}
+            duration={600}
+            spy={true}
+            exact="true"
+            offset={-60}
+            className={`btn btn-outline btn-contact ${
+              show && "btn-contact-dark"
             }`}
           >
-            SIGN UP
-          </button>
+            Contact
+          </LinkS>
         </div>
       </nav>
     </>

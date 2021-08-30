@@ -72,11 +72,11 @@
   cursor: pointer;
 }
 
-.active {
+.activeCard {
   position: relative;
 }
 
-.active:after {
+.activeCard:after {
   content: "";
   position: absolute;
   bottom: -8px;

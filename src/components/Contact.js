@@ -11,7 +11,7 @@ export default function Contact() {
   return (
     <>
       <div className="contact-wrapper">
-        <h1 className="section-title">
+        <h1 className="section-title" id="contact">
           Start your journey <span className="contact-title-accent">now</span>
         </h1>
         <div className="contact-container">

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Intro() {
   return (
-    <div className="intro-wrapper">
+    <div className="intro-wrapper" id="about">
       <h1 className="section-title">Discover</h1>
       <img src="images/compass.svg" className="intro-decoration" alt="rudder" />
       <div className="intro-content-wrapper">

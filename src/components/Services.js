@@ -1,18 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Service from "./Service";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 export default function Services() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
-
   return (
     <>
       <div className="services-container">
         <div className="icons-wrapper">
-          <ul data-aos="fade-right" data-aos-once="true" className="icons-list">
+          <ul className="icons-list">
             <Service
               src="images/handshake.svg"
               text="Tell us what you need. We will do the rest"

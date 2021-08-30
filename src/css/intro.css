@@ -1,5 +1,6 @@
 .intro-wrapper {
-  padding: 100px 40px;
+  padding: 30px 40px;
+  padding-bottom: 90px;
   background: var(--lightgray);
   position: relative;
   z-index: 1;
