@@ -56,13 +56,11 @@ export default function Footer() {
               </span>
             </div>
               <ul
-                className= {open === index || window.innerWidth > 992 ? "footer-list-open" : "footer-list"}
               >
                 {item.list.map((i) => {
-                  return <li key={i.id}>{i.name}</li>;
+                  return <li className= {open === index || window.innerWidth > 992 ? "footer-list-open" : "footer-list"}key={i.id}>{i.name}</li>;
                 })}
               </ul>
-
           </div>
         );
       })}
