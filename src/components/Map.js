@@ -9,8 +9,10 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+// eslint-disable-next-line import/no-webpack-loader-syntax
+import mapboxgl from "!mapbox-gl";
 
-import mapboxgl from "mapbox-gl";
+import "mapbox-gl/dist/mapbox-gl.css";
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
@@ -25,7 +27,6 @@ export default function Map() {
       zoom: 12,
     });
 
-    // map.addControl(new mapboxgl.NavigationControl(), "bottom-right");
     new mapboxgl.Marker().setLngLat([23.804236, 38.041891]).addTo(map);
 
     return () => map.remove();
