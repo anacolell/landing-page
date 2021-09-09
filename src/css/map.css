@@ -1,5 +1,10 @@
-.map-wrapper {
-  width: 100%;
+.map-section-wrapper {
+  background-color: #161616;
+}
+
+.map-content {
+  width: 75%;
+  margin: 0 auto;
   background: #161616;
   padding: 30px;
   display: flex;
@@ -17,6 +22,10 @@
   color: #fff;
   padding-top: 20px;
   font-size: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .map-contact-detail {
@@ -28,7 +37,7 @@
   font-size: 1.5rem;
   color: var(--gold);
   font-weight: 300;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .footer-contact-icon {
@@ -56,23 +65,29 @@
 }
 
 @media (min-width: 676px) {
-  .map-wrapper {
+  .map-content {
     flex-direction: row;
     height: 500px;
   }
 
   .map-container {
-    width: 50%;
+    width: 60%;
     height: 100%;
   }
 
   .map-contact {
-    width: 50%;
+    width: 40%;
     color: #fff;
-    padding: 40px;
+    padding-left: 100px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .map-contact-title {
+    margin-bottom: 20px;
   }
 
   .social-icons {
-    text-align: left;
+    justify-content: flex-start;
   }
 }
