@@ -28,6 +28,10 @@
   cursor: pointer;
 }
 
+.logo-image {
+ height: 170px;
+}
+
 .logo-hide {
   display: none;
 }
@@ -131,6 +135,10 @@
     top: 10;
     left: 20px;
   }
+
+  .logo-image {
+    height: 150px;
+   }
 
   .menu-icon {
     display: block;

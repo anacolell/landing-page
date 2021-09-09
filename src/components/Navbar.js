@@ -46,7 +46,7 @@ export default function Navbar() {
           className="navbar-logo"
         >
           <img
-            className={show || clicked ? "" : "logo-hide"}
+            className={show || clicked ? "logo-image" : "logo-hide"}
             src="images/logo-text.png"
             alt="logo"
           />

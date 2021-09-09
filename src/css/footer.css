@@ -19,12 +19,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid white;
+  /* border-top: 1px solid white; */
   cursor: pointer;
 }
 
 .footer-title-wrapper:last-child {
-  border-bottom: 1px solid white;
+  /* border-bottom: 1px solid white; */
 }
 
 .footer-title-wrapper:hover {
@@ -58,21 +58,21 @@
   color: var(--gold);
 }
 
-.footer-list {
+.footer-list-open {
   list-style: none;
   padding-left: 20px;
   font-size: 0.9rem;
-  opacity: 0;
-  max-height: 0;
-  transition: all 0.4s ease-out;
-}
-
-.footer-open {
   opacity: 1;
   max-height: 1000px;
+  transition: opacity 0.4s ease-in;
 }
 
-.footer-list li {
+.footer-list {
+  opacity: 0; 
+  max-height: 0px;
+}
+
+.footer-list-open li {
   margin-bottom: 18px;
   padding: 0;
 }

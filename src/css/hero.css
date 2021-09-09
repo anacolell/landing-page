@@ -27,14 +27,14 @@
 }
 
 .hero-title {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 300;
 }
 
 .hero-subtitle {
   margin-top: 20px;
-  font-size: 1.5rem;
-  margin-bottom: 80px;
+  font-size: 1.2rem;
+  padding-bottom: 90px;
 }
 
 .arrow {
@@ -44,13 +44,30 @@
 
 .arrow span {
   display: block;
-  width: 30px;
-  height: 30px;
-  border-bottom: 5px solid #fff;
-  border-right: 5px solid #fff;
+  width: 20px;
+  height: 20px;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
   transform: rotate(45deg);
   margin: -10px;
   animation: scroll 2s infinite;
+}
+
+@media screen and (min-width: 960px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .arrow span {
+    width: 30px;
+    height: 30px;  
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+  }
 }
 
 @keyframes scroll {
