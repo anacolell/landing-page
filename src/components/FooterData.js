@@ -54,15 +54,19 @@ export const footerData = [
   },
   {
     id: 3,
-    section: "Contact us",
+    section: "Sustainability",
     list: [
       {
         id: 1,
-        name: "28 Oktovriou Street",
+        name: "Our mission",
       },
       {
         id: 2,
-        name: "+30 034 924 39",
+        name: "Social Impact",
+      },
+      {
+        id: 3,
+        name: "Diversity and inclusion",
       },
     ],
   },

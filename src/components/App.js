@@ -7,6 +7,7 @@ import Destinations from "./Destinations";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Map from "./Map";
 
 import "../css/app.css";
 
@@ -22,6 +23,7 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
+      <Map />
     </>
   );
 }

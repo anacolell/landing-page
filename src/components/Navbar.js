@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link as LinkS } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
-// import { Link as LinkR } from "react-router-dom";
 
 export default function Navbar() {
   const [clicked, setClicked] = useState(false);

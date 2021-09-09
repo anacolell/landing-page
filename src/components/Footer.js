@@ -35,6 +35,7 @@ export default function Footer() {
   }, []);
 
   return (
+    <>
     <div className="footer-wrapper">
       {footerData.map((item, index) => {
         return (
@@ -65,5 +66,6 @@ export default function Footer() {
         );
       })}
     </div>
+    </>
   );
 }

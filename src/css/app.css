@@ -10,6 +10,7 @@
 @import "testimonials.css";
 @import "footer.css";
 @import "contact.css";
+@import "map.css";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap");
@@ -52,6 +53,7 @@ body {
 
 :root {
   --blue: #8bbfdd;
+  --darkblue: #7592ac;
   --lightgray: #fafafa;
   --gold: hsl(45, 34%, 55%);
 }
