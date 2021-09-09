@@ -3,7 +3,7 @@
 }
 
 .map-content {
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
   background: #161616;
   padding: 30px;
@@ -68,6 +68,7 @@
   .map-content {
     flex-direction: row;
     height: 500px;
+    width: 75%;
   }
 
   .map-container {
